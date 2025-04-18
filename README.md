@@ -1,16 +1,20 @@
-# Resume-Screening
-This project uses NLP and TF-IDF based cosine similarity to match a candidate's resume.
-The system preprocesses the text using spaCy, vectorizes both resume and job descriptions using TF-IDF, and ranks job roles based on similarity scores. It helps automate and optimize the job screening process by identifying the best-fit roles quickly and accurately.
+# AI-Powered Resume Screening  
+Resume-Screening is an intelligent tool that automates and optimizes the job screening process using Natural Language Processing (NLP) and TF-IDF-based cosine similarity. It accurately ranks resumes against job descriptions to identify the best-fit roles for candidates — all in seconds.  
 
-Preprocesses resume and job descriptions using **spaCy**
-- Converts text data into vectors using **TF-IDF**
-- Calculates **cosine similarity** between resume and each job description
-- Ranks and identifies the **best-fit job role** for the candidate
-- Easy to customize with new resumes and job roles
+📘 Project Overview
+This project leverages the power of spaCy and scikit-learn to match candidate resumes with job descriptions by calculating similarity scores. By transforming raw text into meaningful vectors, the system makes it easy to:
 
-Tech Stack
-- Python
-- Google Colab
-- SpaCy (NLP)
-- Scikit-learn (TF-IDF, Cosine Similarity)
-- Pandas, NumPy
+* Preprocess text data (resumes & job roles)
+* Vectorize with TF-IDF
+* Measure cosine similarity
+* Rank job roles by fit score
+
+Whether you're a recruiter or developer, this tool saves time and improves hiring accuracy. 
+
+🧪 Tech Stack
+
+* Python-	Core scripting language
+* Google Colab-	development & testing
+* spaCy-	Text preprocessing & NLP
+* Scikit-learn-	TF-IDF vectorization & cosine similarity
+* Pandas, NumPy-	Data handling & numerical operations
