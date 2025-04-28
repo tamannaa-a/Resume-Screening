@@ -1,6 +1,7 @@
 streamlit
 pdfplumber
 spacy
+en-core-web-sm
 scikit-learn
 matplotlib
 pandas
